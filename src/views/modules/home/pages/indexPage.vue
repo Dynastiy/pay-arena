@@ -6,7 +6,7 @@
                 <OurServices/>
                 <AmazingFeatures/>
                 <OurNews/>
-                <AppFooter/>
+                <AppFooter/>   
             </div>
         </div>
     </div>
