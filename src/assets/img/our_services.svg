@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="623px" viewBox="0 0 1440 623" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Desktop</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="65.3565893%" id="linearGradient-1">
+            <stop stop-color="#FFE5D2" stop-opacity="0.795372596" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-Feature-Copy" transform="translate(-193.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M931.422098,0 C1520.8766,0 1819.02911,202.582139 1825.87962,607.746418 C1826.01967,616.029504 1819.41843,622.857806 1811.13534,622.997856 C1811.05082,622.999285 1810.96629,623 1810.88176,623 L15.1392067,623 C6.85493443,623.000002 0.139204873,616.284272 0.139204873,608 C0.139204873,607.906616 0.140076921,607.813235 0.141820905,607.719868 C7.70944984,202.573289 318.136209,0 931.422098,0 Z" id="Bg-Copy" transform="translate(913.000000, 311.500000) rotate(180.000000) translate(-913.000000, -311.500000) "></path>
+        </g>
+    </g>
+</svg>

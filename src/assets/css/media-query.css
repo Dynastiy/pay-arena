@@ -1,0 +1,37 @@
+    @media (max-width: 990px) {
+        .container--fluid {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        .our--services_cards,
+        .amazing--features_cards,
+        .our--news_cards {
+            grid-template-columns: auto;
+        }
+        .hero--text {
+            display: flex;
+            height: 400px;
+            align-items: center;
+            width: 80%;
+            padding-bottom: 4rem;
+        }
+        .login--content {
+            width: 80%;
+            grid-template-columns: auto;
+        }
+        .hero--text h1 {
+            font-size: 2.5rem;
+            color: #000;
+            font-weight: 600;
+            line-height: 45px;
+        }
+        .login--content .left--side {
+            display: none;
+        }
+        .mobile--nav {
+            display: block;
+        }
+        .web--nav {
+            display: none;
+        }
+    }

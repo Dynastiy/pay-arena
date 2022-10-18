@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="110px" viewBox="0 0 108 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <defs>
+        <filter x="-16.5%" y="-7.9%" width="132.9%" height="120.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M60.6521586,10.2317905 C42.6521586,-7.54863177 27.3200407,0.537677283 24.6521586,14.0838212 C21.9842765,27.6299652 -2.79876327,30.3346666 0.261187502,46.3346666 C3.32113827,62.3346666 36.6521586,52.8346666 36.6521586,67.3346666 C36.6521586,81.8346666 75.1895892,81.3346666 75.1895892,62.3346666 C75.1895892,43.3346666 78.6521586,28.0122127 60.6521586,10.2317905 Z" id="path-2"></path>
+    </defs>
+    <g id="General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="First-screen" transform="translate(-583.000000, -1703.000000)">
+            <g id="03_Features" transform="translate(193.000000, 1542.000000)">
+                <g id="Features" transform="translate(49.000000, 0.000000)">
+                    <g id="Feature-2">
+                        <g filter="url(#filter-1)" transform="translate(274.792017, 111.151961)">
+                            <g id="Icon" transform="translate(82.560924, 65.482843)">
+                                <g id="bgicon">
+                                    <mask id="mask-3" fill="white">
+                                        <use xlink:href="#path-2"></use>
+                                    </mask>
+                                    <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-2"></use>
+                                    <g id="Color/Blue" opacity="0.2" mask="url(#mask-3)" fill="#E66500">
+                                        <rect id="Rectangle" x="0" y="0" width="76" height="78"></rect>
+                                    </g>
+                                </g>
+                                <g id="icon/home/desktop" transform="translate(9.000000, 10.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                                    <g id="Group-9">
+                                        <path d="M54.708,21.5674 C55.546,24.2294 56,27.0614 56,29.9994 C56,45.4634 43.464,57.9994 28,57.9994 C12.536,57.9994 0,45.4634 0,29.9994 C0,14.5354 12.536,1.9994 28,1.9994 C30.744,1.9994 33.394,2.3954 35.898,3.1294" id="Stroke-1" stroke="#333333"></path>
+                                        <path d="M39.8018,27.8184 C39.9318,28.5264 39.9998,29.2544 39.9998,30.0004 C39.9998,36.6264 34.6278,42.0004 27.9998,42.0004 C21.3738,42.0004 15.9998,36.6264 15.9998,30.0004 C15.9998,23.3724 21.3738,18.0004 27.9998,18.0004 C28.6678,18.0004 29.3218,18.0544 29.9598,18.1584" id="Stroke-3" stroke="#333333"></path>
+                                        <line x1="28" y1="30" x2="56" y2="2" id="Stroke-5" stroke="#E66500"></line>
+                                        <polygon id="Stroke-7" stroke="#E66500" points="50 8 50 0 42 8 42 16 50 16 58 8"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

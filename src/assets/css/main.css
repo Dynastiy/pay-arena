@@ -1,0 +1,245 @@
+@import url('@/assets/css/partials.css');
+.hero--section {
+    background-image: url('../img/hero-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero--text {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    width: 55%;
+    padding-bottom: 4rem;
+}
+
+.mobile--nav {
+    display: none;
+}
+
+.hero--text h1 {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+.our--services {
+    background: url('../img/our_services.svg');
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 4rem;
+    /* height: 500px; */
+}
+
+.our--services_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.our--services_card h5 {
+    font-weight: bold;
+}
+
+.our--services_card {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.our--services_card p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.our--services_cards .icon span {
+    padding: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icon-primary {
+    font-size: 35px;
+    color: #2643e9;
+    background-color: rgba(138, 152, 235, 0.5);
+}
+
+.icon-secondary {
+    font-size: 35px;
+    color: #1aae6f;
+    background-color: rgba(84, 218, 161, .5);
+}
+
+.icon-tertiary {
+    font-size: 35px;
+    color: #ff3709;
+    background-color: rgba(252, 140, 114, .5);
+}
+
+.amazing--features {
+    /* background-color: #fff; */
+    background: url('../img/amazing-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.amazing--features_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-bottom: 4rem;
+}
+
+.amazing--feature {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.amazing--feature p {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.our--news {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+.our--news_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.our--news_card {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+}
+
+.our--news_card p {
+    font-size: 0.8rem;
+}
+
+.our--news_card h5 {
+    color: #fff;
+}
+
+.our--news_card .date {
+    font-size: 0.8rem;
+    color: var(--gray-300);
+}
+
+
+/* Login Page  */
+
+.login--container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--content {
+    display: grid;
+    grid-template-columns: 40% auto;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+}
+
+.login--content .left--side {
+    background-color: var(--primary-color);
+    border-radius: 10px 0 0 10px;
+    padding: 3rem;
+}
+
+.login--content .right--side {
+    border-radius: 0 10px 10px 0;
+    padding: 3rem;
+}
+
+.login--content .right--side input {
+    display: block;
+    padding: 0.7rem 0.8rem;
+    width: 100%;
+    border: 1px solid var(--gray-400);
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.login--content .right--side input::placeholder {
+    color: var(--gray-400);
+}
+
+.login--content .right--side button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px !important;
+}
+
+.login--content .password-field input {
+    border: transparent;
+}
+
+.login--content .password-field {
+    display: flex;
+    align-items: center;
+    /* padding: 0.7rem 0.8rem; */
+    width: 100%;
+    border: 1px solid var(--gray-400);
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding-right: 0.8rem;
+}
+
+.login--content .left--side button {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.login--content .left--side button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+
+/* App Footer  */
+
+.footer {
+    background: var(--accent-color-dark);
+    /* height: 400px; */
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    /* margin-top: 3.3rem; */
+    padding-top: 2rem;
+}
+
+.footer a,
+.footer p {
+    color: var(--gray-400);
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    color: var(--gray-100);
+}
+
+.footer h4 {
+    color: var(--gray-200);
+    font-size: 1.2rem;
+}
